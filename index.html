@@ -1,0 +1,55 @@
+!DOCTYPE html
+html lang=ar dir=rtl
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleتطبيق مسابقة الموظفينtitle
+    link rel=stylesheet href=style.css
+head
+body
+
+    div class=login-container
+        h2تسجيل الدخولh2
+
+        div class=input-group
+            label for=employeeNameاسم الموظفlabel
+            input type=text id=employeeName placeholder=أدخل اسمك required
+        div
+
+        div class=input-group
+            label for=passwordكلمة المرورlabel
+            input type=password id=password placeholder=أدخل كلمة المرور required
+        div
+
+        div class=input-group
+            label for=regionالمنطقةlabel
+            select id=region
+                option value=اختر المنطقةoption
+            select
+        div
+
+        div class=input-group
+            label for=cityالمدينةlabel
+            select id=city
+                option value=اختر المدينةoption
+            select
+        div
+
+        div class=input-group
+            label for=exhibitionالمعرضlabel
+            select id=exhibition
+                option value=اختر المعرضoption
+            select
+        div
+
+        button id=loginBtnدخولbutton
+
+        div class=admin-login
+            h3الدخول كـ مشرفh3
+            button id=adminLoginBtnدخول المشرفbutton
+        div
+    div
+
+    script src=script.jsscript
+body
+html
